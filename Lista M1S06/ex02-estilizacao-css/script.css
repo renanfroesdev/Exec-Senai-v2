@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    width: 100vw;
+    text-align: center;
+}
+header{
+    padding-top: 20px;
+    background-color: rgb(80, 80, 250);
+    height: 100px;
+    font-size: 20pt;
+    color: white;
+}
+.conteudo {
+    background-color: rgb(115, 207, 187);
+    height: 400px;
+}
+.conteudo p {
+    color: white;
+    padding-top: 50px;
+}
+.conteudo h2{
+    color: blck;
+    padding-top: 50px;
+}
+footer {
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    padding-top: 80px;
+}
