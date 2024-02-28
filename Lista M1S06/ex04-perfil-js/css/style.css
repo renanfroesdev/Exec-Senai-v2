@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+header{
+    background-color: rgb(109, 214, 249);
+    height: 100px;
+    color: white;
+    border-bottom: 10px dotted white;
+    padding-bottom: 15px;
+}
+header h1{
+    font-size: 80px;
+    font-family: "Satisfy", cursive;
+}
+.container {
+    background-color: rgb(148, 225, 250);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background-color: white;
+    height: 400px;
+    width: 550px;
+    display: flex;
+    border: 4px solid black;
+    border-radius: 5%;
+}
+.img img {
+    height: 330px;
+    width: 210px;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-left: 10px;
+ 
+}
+.bio {
+    height: 180px;
+    width: 290px;
+    margin-top: 45px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-evenly;
+}
+.bio h1{
+    font-size: 40px;
+}
+.bio h3{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.bio h4{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.botoes{
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top: 280px;
+    margin-right: 10px;
+    height: 80px;
+    width: 700px;
+}
+#btnLike {
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-style: hidden;
+    background-color: white;
+}
+#btnLike img {
+    border-radius: 80%;
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    margin-right: 50px;
+
+}
+#btnDislike {
+    margin-top: 10px;
+    height: 70px;
+    width: 80px;
+    border-radius: 50%;
+    border-style: hidden;
+}
+#btnDislike img {
+    border-radius: 100px;
+
+}
+footer {
+    background-color: rgb(109, 214, 249);
+    height: 50px;
+    display: flex;
+    padding-top: 30px;
+    border-top: 3px solid white;
+    flex-direction: row;
+    
+}
+footer h3 {
+    margin-right: 50px;
+}
