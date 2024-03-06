@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+        "sidebar header header"
+        "sidebar content content"
+        "sidebar content content";
+
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: green;
+    height: 100vh;
+}
+.header {
+    height: 10vh;
+    grid-area: header;
+    background-color: blue;
+}
+.content { 
+    height: 90vh;
+    grid-area: content;
+    background-color: red;
+}
+.centralizatexto {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
